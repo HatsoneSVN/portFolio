@@ -1,23 +1,22 @@
 import React from "react";
 import { Chrono } from 'react-chrono';
+import Style from './bio.module.css'
 
 function Bio() {
     const customContent = [
         <div>
-          <h3 className="titleCardEsperience">User Manager App / Full Stack Developer</h3>
+          <h3 className={Style.titleCardEsperience}>User Manager App / Full Stack Developer</h3>
           <p>This is the first custom card</p>
         </div>,
         <div>
-          <h3 className="titleCardEsperience">Custom Card 2</h3>
+          <h3 className={Style.titleCardEsperience}>Custom Card 2</h3>
           <p>This is the second custom card</p>
         </div>,
       ];
     const items = [{
         title: "2020",
-        
     }, {
-        title: "2021",
-        
+        title: "2021",   
     }];
     const customTheme = {
         primary: "gray",
@@ -26,7 +25,6 @@ function Bio() {
         cardForeColor: "white",
         titleColor: "white"
     };
-
     return (
         <section className="relative pt-16 pb-10 min-h-screen w-full bg-transparent">
             <div className="text-white p-4 md:p-6 container mx-auto flex flex-col items-center space-y-4 
