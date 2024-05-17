@@ -1,0 +1,9 @@
+/* Welcome.module.css */
+.aboutBackground {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+#sectionAbout{
+    min-width: 55vw;
+}

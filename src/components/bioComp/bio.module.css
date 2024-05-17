@@ -1,0 +1,20 @@
+.timelineContainer {
+    position: relative;
+    padding-left: 20px;
+    border-left: 4px solid #1D4ED8; 
+}
+
+.timelinePoint {
+    position: absolute;
+    left: -8px; 
+    top: 0;
+    width: 16px;
+    height: 16px;
+    background-color: #1D4ED8;
+    border-radius: 50%;
+}
+
+.timelineEvent {
+    margin-bottom: 20px;
+    padding-left: 20px; 
+}
