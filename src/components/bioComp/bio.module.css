@@ -1,20 +1,20 @@
-.timelineContainer {
-    position: relative;
-    padding-left: 20px;
-    border-left: 4px solid #1D4ED8; 
+.titleCardEsperience{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.containerDataExperience {
+    display: flex; /* Establece el contenedor principal para usar Flexbox */
+    flex-wrap: wrap; /* Permite que los elementos se pasen a la línea siguiente si no hay espacio */
+    justify-content: flex-end; /* Alinea los elementos desde la derecha hacia la izquierda */
+    text-align: right; /* Alinea el texto a la derecha dentro de cada elemento */
 }
 
-.timelinePoint {
-    position: absolute;
-    left: -8px; 
-    top: 0;
-    width: 16px;
-    height: 16px;
-    background-color: #1D4ED8;
-    border-radius: 50%;
+.containerDataExperience > div {
+    flex: 1 1 20%; /* Cada div tomará al menos el 20% del ancho del contenedor, pero puede crecer si hay espacio */
+    margin: 10px; /* Añade un poco de margen entre los elementos */
 }
 
-.timelineEvent {
-    margin-bottom: 20px;
-    padding-left: 20px; 
+.experienceDescriptionCard {
+    flex-basis: 100%; /* Hace que el div de descripción ocupe el 100% del ancho disponible */
+    text-align: left; /* Alinea el texto de la descripción a la izquierda */
 }
