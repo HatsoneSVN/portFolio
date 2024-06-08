@@ -3,10 +3,10 @@
     font-weight: bold;
 }
 .containerDataExperience {
+    text-align: center;
     display: flex; /* Establece el contenedor principal para usar Flexbox */
     flex-wrap: wrap; /* Permite que los elementos se pasen a la línea siguiente si no hay espacio */
     justify-content: flex-end; /* Alinea los elementos desde la derecha hacia la izquierda */
-    text-align: right; /* Alinea el texto a la derecha dentro de cada elemento */
 }
 
 .containerDataExperience > div {
@@ -16,5 +16,11 @@
 
 .experienceDescriptionCard {
     flex-basis: 100%; /* Hace que el div de descripción ocupe el 100% del ancho disponible */
-    text-align: left; /* Alinea el texto de la descripción a la izquierda */
 }
+/*In general, always is better know what we are eating and in what quantities, one of the most important and difficult jobs to do to have a good physique is regulate the diet, and the mainly implication in this process is control to food. 
+
+In my personal experience, keep control about what you are eating could improve your lifestyle, for lucky, I have never been fat, but I know of some cases which other people was fat when they were children and now, after to control their diet, they are very good, and they feel good with themselves. 
+
+Anyway, we shouldn´t forget to enjoy a good plat for time to time in moderation, I am sure about if some fat people would know what the result is to control diet, they would start as soon as possible. 
+
+In conclusion, having a equilibrate diet always is good. */

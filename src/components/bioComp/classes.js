@@ -1,6 +1,9 @@
 import React from "react";
+import Style from "./bio.module.css"
 export class experience{
-    constructor(backend, frontend, bd, repository, methodologies, description){
+    constructor(rol, name, backend, frontend, bd, repository, methodologies, description){
+        this.rol = rol;
+        this.name = name;
         this.backend = backend;
         this.frontend = frontend;
         this.bd = bd;
@@ -73,7 +76,7 @@ export class experience{
                 {listMethod}
             </ul>
         </div>,
-        <div>
+        <div className={Style.experienceDescriptionCard}>
             <p>Description</p>
             <p className="experienceDescriptionCard">
                 {this.description}
