@@ -7,3 +7,6 @@
 #sectionAbout{
     min-width: 55vw;
 }
+.aboutMeCard{
+    box-shadow: 30px 30px 10px rgba(0, 0, 0, 1.5);
+}
